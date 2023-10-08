@@ -137,7 +137,4 @@ if (process.env.NODE_ENV === "production") {
 
 const PORT = process.env.PORT || 5001;
 // const PORT = 5000;
-app.listen(
-  PORT
-  // console.log(`Backend Server is up on PORT ${PORT}...`)
-);
+app.listen(PORT, console.log(`Backend Server is up on PORT ${PORT}...`));
